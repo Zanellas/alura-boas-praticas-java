@@ -44,7 +44,7 @@ public class PetService {
         }
     }
 
-    public void iportarPetsDoAbrigo() throws IOException, InterruptedException {
+    public void importarPetsDoAbrigo() throws IOException, InterruptedException {
         System.out.println("Digite o id ou nome do abrigo:");
         String idOuNome = new Scanner(System.in).nextLine();
 
